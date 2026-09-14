@@ -1,39 +1,73 @@
-<!  DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html>
+
 <head>
     <title>Weather App</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="Weather-app">
+
+    <div class="weather-app">
+
         <h1>Weather App</h1>
+
         <div class="search-box">
-            <input type="text" placeholder="masukan kota">
+            <input type="text" placeholder="Masukkan kota">
             <button>Cari</button>
         </div>
+
+        <p class="message"></p>
+
         <div class="weather-info">
-            <h2>Tegal</h2>
-            <div class="weather-icon"></div>
-            
+
+            <h2 class="city">Tegal</h2>
+
+            <div class="weather-icon">
+                🌤️
+            </div>
+
             <p class="temperature">30°C</p>
-            <p class="condition">🌤</p>
-            <p class="condition">cerah</p>
+
+            <p class="condition">Cerah</p>
+
+        </div>
+
+        <!-- Informasi tambahan -->
+
+        <div class="details">
+            <div class="detail-box">
+
+                <p>💧</p>
+                <p>Kelembapan</p>
+                <p>70%</p>
+            </div>
+            <div class="detail-box">
+                <p>💨</p>
+                <p>Angin</p>
+                <p>12 km/h</p>
+            </div>
+            <div class="detail-box">
+                <p>🌡️</p>
+                <p>Terasa seperti</p>
+                <p>32°C</p>
+            </div>
             
 
         </div>
-        <!-- informasi tambahan -->
-        <div class="details">
-            <p> kelembapan: 70%</p>
-            <p> angin: 12 km/h</p>
-            <P> terasa seperti: 32°C</P>
-        </div>
-        <div class="fetails2">
-            <p>matahari terbit: 05:45</p>
-            <p>matahari terbenam: 17:50</p>
+
+        <div class="details2">
+
+            <p>🌅 Matahari terbit: 05:45</p>
+            <p>🌇 Matahari terbenam: 17:50</p>
+
         </div>
 
-        
     </div>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
+```

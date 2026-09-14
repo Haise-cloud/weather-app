@@ -1,0 +1,58 @@
+body  {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    min-height: 100vh;
+}
+h1  {
+    color: slateblue;
+    text-align: center;
+    font-size: 32px;
+}
+.weather-app {
+    background-color: white;
+    width: 1080px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.temperature  {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.condition  {
+    font-size: 20px;
+
+}
+.weather-icon  {
+    font-size: 70px;
+}
+.search-box  {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+.search-box button  {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.weather-info {
+    text-align: center;
+    
+}
+.details  {
+    margin-top: 30px;
+}
+.details2  {
+    margin-top: 30px;
+}
